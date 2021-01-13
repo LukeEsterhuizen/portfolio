@@ -708,6 +708,13 @@ body {
 
 @media only screen and (max-width: 366px) {
 
+  .headerBlock h2 {
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: 100;
+    line-height: 30px;
+}
+
   nav {
     color: #ffffff;
     font-size: 14px;
@@ -717,9 +724,10 @@ body {
       margin: 7px;
   }
 
-.headerBlock h1, .header-second h2 {
-    font-size: 16px;
+.headerBlock h1 {
+    font-size: 26px;
     line-height: 23px;
+    margin-bottom: 10px;
 }
 
 h1, h2 {
