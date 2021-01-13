@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/77cac3d44e.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
+
+    <title>Luke Esterhuizen</title>
+  </head>
+  <body>
+
+    <header class="container-fluid header margin-bottom-100">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <nav class="navbar navbar-default fixed-top">
+
+              <ul class="ml-auto">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#contact">Contact Me</a></li>
+              </ul>
+
+            </nav>
+          </div>
+          <div class="col-sm-12">
+            <div class="headerBlock">
+              <h1>Luke Esterhuizen</h1>
+              <h2>UX Web Designer</h2>
+              <a href="#portfolio">View Portfolio</a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+      <div id="about"></div>
+    </header>
+
+    <section class="container margin-bottom-100 aboutMe">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>About me</h2>
+
+          <p>I am a UX web designer/developer with a diploma in web and graphics and a certificate in User
+Experience design. I have experience in html5, css3, JavaScript, jquery, Figma, Bootstrap, Photoshop,
+media queries, responsive design and SEO</p>
+
+        </div>
+
+      </div>
+      <div id="portfolio"></div>
+    </section>
+
+
+
+    <section class="container margin-bottom-100">
+
+      <div class="row">
+        <div class="col-sm-12">
+          <h2>My Portfoilio</h2>
+        </div>
+        <div class="col-sm-12 padding-none-mobile">
+
+          <div class="grid-container product">
+
+            <div>
+              <a target="_blank" href="https://oldmutualfinance.co.za/">
+              <img src="images/omf.jpg" alt="">
+              <h3>Old Mutual Finance</h3>
+              </a>
+            </div>
+
+          <div>
+            <a target="_blank" href="http://bhmediaagency.co.za/">
+              <img src="images/bhmedia.jpg" alt="">
+              <h3>BH Media</h3>
+              </a>
+            </div>
+
+            <div>
+              <a target="_blank" href="https://www.ratracemedia.com/">
+                <img src="images/ratrace.jpg" alt="">
+              <h3>Ratrace Media</h3>
+            </a>
+            </div>
+
+            <div>
+              <a target="_blank" href="https://www.figma.com/proto/p0hMY1Dk3gT6qzixjtqGpY/Biotrain?node-id=2%3A2&scaling=scale-down-width">
+                <img src="images/biotrain.jpg" alt="">
+              <h3>Biotrain (figma prototype)</h3>
+              </a>
+            </div>
+
+
+          </div>
+
+
+        </div>
+
+      </div>
+      <div id="contact"></div>
+    </section>
+
+    <section class="container-fluid bg-light">
+      <div class="container">
+
+        <div class="row">
+          <div class="col-sm-12">
+            <h2>Get in touch</h2>
+
+            <p>Email: lukeesterhuizen@gmail.com <br>
+            Cell: 0737911280</p>
+
+          </div>
+
+        </div>
+
+      </div>
+
+
+    </section>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/scripts.js"></script>
+
+  </body>
+</html>
