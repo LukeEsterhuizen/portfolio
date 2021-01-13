@@ -206,7 +206,7 @@ nav ul li {
   margin-bottom: 30px;
 }
 
-.headerBlock a, .blueBlock a {
+.headerBlock a {
   font-size: 18px;
   background-color: #20c997;
   padding: 10px 20px;
@@ -511,7 +511,7 @@ footer i {
 }
 
 .headerBlock {
-    width: 75%;
+    width: 52%;
 }
 
 .blueBlock {
@@ -555,7 +555,7 @@ footer i {
 }
 
 .headerBlock {
-    width: 100%;
+    width: 62%;
 }
 
 .blog-grid-container {
@@ -592,11 +592,6 @@ footer i {
     min-height: 500px;
   }
 
-  .headerBlock {
-    width: 100%;
-    margin: 50% 0 0 10%
-}
-
   .aboutMe {
     width: 80%;
 }
@@ -621,13 +616,9 @@ nav ul li {
     width: 15%;
 }
 
-.headerBlock h1, .header-second h2 {
-    font-size: 24px;
+.headerBlock h1 {
+    font-size: 40px;
     line-height: 29px;
-  }
-
-.headerBlock a {
-    display: none;
   }
 
 .margin-bottom-100 {
@@ -654,10 +645,15 @@ nav ul li {
 }
 
 
-@media only screen and (max-width: 401px) {
+@media only screen and (max-width: 465px) {
 
-.headerBlock {
-    margin: 50% 0 0 0;
+  .headerBlock {
+    width: 80%;
+    margin: 35% auto;
+}
+
+.headerBlock a {
+    margin: 17px 0 0 75px;
 }
 
   .ml-auto {
@@ -668,9 +664,8 @@ nav ul li {
     margin: 9px;
 }
 
-.headerBlock h1, .header-second h2 {
-    font-size: 20px;
-    line-height: 26px;
+.headerBlock h1 {
+    line-height: 45px;
 }
 
 h3, h4 {
@@ -706,7 +701,11 @@ body {
 
 }
 
-@media only screen and (max-width: 366px) {
+@media only screen and (max-width: 388px) {
+
+  .headerBlock a {
+    margin: 17px 0 0 44px;
+}
 
   .headerBlock h2 {
     font-size: 24px;
@@ -756,5 +755,18 @@ h3, h4 {
 }
 
 
+
+}
+
+@media only screen and (max-width: 359px) {
+
+.headerBlock {
+    width: 100%;
+    margin: 50% auto;
+}
+
+.bg-light {
+    padding: 10px;
+  }
 
 }
