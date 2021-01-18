@@ -1,0 +1,193 @@
+
+
+@font-face {
+	font-family: 'Futura Std';
+	src: url('../fonts/FuturaStd-Light.eot');
+	src: url('../fonts/FuturaStd-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FuturaStd-Light.woff') format('woff'),
+		url('../fonts/FuturaStd-Light.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Futura Hv BT';
+	src: url('../fonts/FuturaBT-Heavy.eot');
+	src: url('../fonts/FuturaBT-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/FuturaBT-Heavy.woff') format('woff'),
+		url('../fonts/FuturaBT-Heavy.ttf') format('truetype');
+	font-weight: 900;
+	font-style: normal;
+}
+
+a {color: #029179;}
+a:focus, a:hover {color: #029179; text-decoration: underline;}
+
+h1, h2, h3 {color: #027669; font-family: 'Futura Std';}
+h1 {font-family: 'Futura Hv BT'; text-transform: uppercase;}
+h3 {text-transform: uppercase; font-size: 23px; font-family: 'Futura Std';}
+
+.container {width: 1280px;}
+.navWrapper {position: fixed; width: 100%; z-index: 9999;
+background: #87e0fd; /* Old browsers */
+background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 0%, #ffffff 0%, #f8f8f8 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 0%,#ffffff 0%,#f8f8f8 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 0%,#ffffff 0%,#f8f8f8 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
+
+-webkit-box-shadow: 0 1px 4px 1px #cccccc;
+box-shadow: 0 1px 4px 1px #cccccc;
+}
+
+.carousel-inner h3 {font-size: 36px; line-height: 40px;}
+
+.greenBar {background: #6eab24;
+            background: -moz-linear-gradient(left,  #6eab24 20%, #006150 80%);
+            background: -webkit-linear-gradient(left,  #6eab24 20%,#006150 80%);
+            background: linear-gradient(to right,  #6eab24 20%,#006150 80%);
+            filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6eab24', endColorstr='#006150',GradientType=1 );
+    height: 15px;
+	margin-bottom: 20px;
+}
+.mainHeader {}
+.navbar-default {border: none; background-color: transparent; font-family: 'Futura Std';}
+.navbar-default .navbar-nav>li>a {color: #029179; font-size: 18px;}
+.options {margin-top: -25px;}
+.chooseOption {background-color: #ffffff; width: 100%; height: 315px; border: 2px solid #ddd; border-radius: 5px; padding: 0; margin: auto; 
+position: relative; margin-bottom: 50px;}
+.aboutMA {min-height: 600px;}
+.aboutMA span {width: 100% !important;}
+.smallBlock {background-color: #ffffff; min-height: 250px; border: 2px solid #ddd; border-radius: 5px; padding: 20px; margin-bottom: 20px;}
+.smallBlock h3 {border-bottom: 1px solid #027669; padding-bottom: 20px;}
+.chooseOption h2 {margin-bottom: 20px; font-size: 42px; border-bottom: 1px solid #027669; padding-bottom: 20px; font-weight: bold;}
+.chooseOption a {min-width: 123px;}
+.chooseOption span {display: block; width: 85%; margin: auto;}
+.chooseOption span img {display: block; margin-right: 20px; width: 46px; height: 40px; float: left;}
+.chooseOption:hover {background-color: #fafafa;}
+.chooseOption .panel-heading {background-color: #ffffff;}
+.chooseOption .panel-heading h4 {color: #027669;}
+.bottomOptions {height: auto; margin-bottom: 50px; background-color: #fafafa; padding: 5px; width: 100%;}
+.bottomOptions h3 {font-size: 16px; font-weight: bold; margin-top: 10px;}
+.mobileBankingApp {background-color: #027669; width: 100%; height: 355px; border: 1px solid #ddd; border-radius: 5px; padding: 20px; margin: auto; 
+position: relative; margin-bottom: 50px; color: #ffffff;}
+.mobileBankingApp .optionBtns {position: absolute; top: 260px; left: 170px;}
+.mobileBankingApp h3 {color: #ffffff; border-bottom: 1px solid #ffffff;}
+.smallBlock:hover {background-color: #f1f1f1; border: 2px solid #ffffff;}
+.optionBtns {position: absolute; top: 260px; left: 170px;}	
+.btn-success {background-color: #6eab24;}
+.motto {padding-top: 145px; margin-bottom: 20px;}
+.motto h1 {font-size: 55px}
+.footerWrapper {width: 100%; padding: 10px; border-top: 1px solid #cdcdcd;
+background: #87e0fd; /* Old browsers */
+background: -moz-linear-gradient(top, #87e0fd 0%, #53cbf1 0%, #ffffff 0%, #f8f8f8 99%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top, #87e0fd 0%,#53cbf1 0%,#ffffff 0%,#f8f8f8 99%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom, #87e0fd 0%,#53cbf1 0%,#ffffff 0%,#f8f8f8 99%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#87e0fd', endColorstr='#f8f8f8',GradientType=0 ); /* IE6-9 */
+}
+.footerWrapper p {font-size: 11px; color: #999; font-family: verdana;}
+.test1 h2, .test1 h3, .test1 a {color: #ffffff;}
+.featuredArticle h3 {font-size: 30px;}
+.featuredArticle .optionBtns {top: 200px; left: 230px;}
+.navbar-default .navbar-nav > li > a {color: #666666; font-size: 18px;}
+.navbar-default .navbar-nav > li > a:hover, navbar-default .navbar-nav > li > a:focus, .dropdown-menu > li > a, .dropdown-menu > li > a:hover {color: #666666;}
+.navbar-default .navbar-nav > .open > a, .navbar-default .navbar-nav > .open > a:hover, .navbar-default .navbar-nav > .open > a:focus {background-color: transparent; color: #029179;}
+.dropdown-menu > li > a {padding-bottom: 5px;}
+.carousel-control.left, .carousel-control.right {background-image: none;}
+.carousel-inner {width: 1280px; margin: auto;}
+.carousel-caption {text-align: left; left: 0; width: 70%; text-shadow: none; top: 55px;}
+.secondPageHeader {top: 45px;}
+.quickApply img {float: right;}
+.greyBorder {border: 2px solid #ddd; border-radius: 5px; padding: 20px; margin-top: -20px;}
+#accordion {margin-top: 20px;}
+
+/* .options .col-md-6 {background-color: blue;} */
+
+/*
+inspired from http://codepen.io/Rowno/pen/Afykb 
+*/
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
+}
+
+/*
+WHAT IS NEW IN 3.3: "Added transforms to improve carousel performance in modern browsers."
+now override the 3.3 new styles for modern browsers & apply opacity
+*/
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+}
+
+
+@media only screen and (max-width : 1280px) {
+
+	.container {width: 100%;}
+
+}
+
+@media only screen and (max-width : 991px) {
+
+	.chooseOption {margin-bottom: 50px;}
+
+}
