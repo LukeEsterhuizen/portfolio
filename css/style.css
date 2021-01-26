@@ -278,10 +278,14 @@ nav ul li {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr;
-  gap: 40px 40px;
+  gap: 70px 40px;
   grid-template-areas:
     ". ."
     ". .";
+}
+
+.grid-container img {
+  border: 1px solid #20c997;
 }
 
 
